@@ -12,91 +12,91 @@ Created by NR on may 19, 2024
 
 /* Style for h1 element */
 h1{
-    text-align: center;  
-    text-shadow: 0 1px 0px #f4bfbfa9, 1px 0 0px #f7c1c1, 1px 2px 1px #f2acac, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd, 2px 2px 3px rgba(255,132,161,0);
-   }
+   text-align: center;  
+   text-shadow: 0 1px 0px #f4bfbfa9, 1px 0 0px #f7c1c1, 1px 2px 1px #f2acac, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd, 2px 2px 3px rgba(255,132,161,0);
+  }
 /* Style for h2 element */
 h2{
-       color:rgb(87, 85, 163)
-   }
+      color:rgb(87, 85, 163)
+  }
 /* Style for body */
 body{
-   background: #FF8A91;
-   background: -moz-linear-gradient(top, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
-   background: -webkit-linear-gradient(top, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
-   background: linear-gradient(to bottom, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
-   }
+  background: #FF8A91;
+  background: -moz-linear-gradient(top, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
+  background: -webkit-linear-gradient(top, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
+  background: linear-gradient(to bottom, #FF8A91 0%, #FF7D87 43%, #086CB7 100%);
+  }
 
 /* Style for paragraph elements */
 p{
- color: rgb(135, 38, 55);
+color: rgb(135, 38, 55);
 }
 li{
-   color: rgb(135, 38, 55);
+  color: rgb(135, 38, 55);
 }
 /* Style for checklist */
 .checklist{
-   margin-bottom: 5px; /* Adjust spacing between items */
-   display: inline-block; /* Display items in a line */
-   margin-right: 5px; /* Adjust spacing between items */
-   font-size: small;
-   flex:1;
-   color: rgb(135, 38, 55);
+  margin-bottom: 5px; /* Adjust spacing between items */
+  display: inline-block; /* Display items in a line */
+  margin-right: 5px; /* Adjust spacing between items */
+  font-size: small;
+  flex:1;
+  color: rgb(135, 38, 55);
 }
 
 /* Style for sideway class */
 .sideway{
-   flex: 1;
-   margin-left: 10px;
-   margin-right: 6px;
-   display: inline-block;
-   writing-mode: vertical-rl;
-   transform: rotate(180deg);
-   font-size: 17px;
-   text-align: center;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 6px;
+  display: inline-block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 17px;
+  text-align: center;
 }
 /* Style for container */
 .container{
-   display:flex;
+  display:flex;
 }
 /* Style for table container */
 .table-container {
-   margin: 0 auto;
-   width: 25%; 
-   color: rgb(135, 38, 55);
-   border: 1px solid rgb(188, 135, 135);
-   border-width: 25px;
- }
+  margin: 0 auto;
+  width: 25%; 
+  color: rgb(135, 38, 55);
+  border: 1px solid rgb(188, 135, 135);
+  border-width: 25px;
+}
 /*Style for table*/
- table {
-   border-collapse: collapse; 
-   width: 100%; 
+table {
+  border-collapse: collapse; 
+  width: 100%; 
 }
 /*Style for th and td*/
- th, td {
-   border: 1px solid rgb(173, 113, 113); 
-   padding: 8px; 
-   text-align: left; 
+th, td {
+  border: 1px solid rgb(173, 113, 113); 
+  padding: 8px; 
+  text-align: left; 
 }
 
- /* Style for image container */
- .image-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
-   margin-top: 10px;
- }
+/* Style for image container */
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
 
- /* Style for images inside image container */
- .image-container img{
-   max-width: 170px;
-   height: auto;
-   border-radius: 5px;
- }
+/* Style for images inside image container */
+.image-container img{
+  max-width: 170px;
+  height: auto;
+  border-radius: 5px;
+}
 
- /* Style for read class */
+/* Style for read class */
 .read {
- text-align: center;
- font-size: 40px;
+text-align: center;
+font-size: 40px;
 }
